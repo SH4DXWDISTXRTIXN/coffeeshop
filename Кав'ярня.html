@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кав'ярня</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>Справжній смак кави</header>
+
+  <div class="menu">
+    <div class="item">
+      <img src="https://bengusta.com.ua/blog/wp-content/uploads/2018/12/making-latte.jpeg" alt="Лате">
+      <h3>Лате</h3>
+      <p>₴70</p>
+    </div>
+    <div class="item">
+      <img src="https://coffeestory.in.ua/image/cache/catalog/image/catalog/15.02.2022/2.webp" alt="Капучино">
+      <h3>Капучино</h3>
+      <p>₴65</p>
+    </div>
+    <div class="item">
+      <img src="https://dvazajci.com/wp-content/uploads/2021/04/Bez-nazvaniya-1.jpg" alt="Еспресо">
+      <h3>Еспресо</h3>
+      <p>₴60</p>
+    </div>
+  </div>
+
+  <div class="about">
+    <h2>Про нас</h2>
+    <p>Ми — затишна кав'ярня в центрі міста. Варимо каву з любов'ю та турботою про кожного гостя.</p>
+  </div>
+
+  <form>
+    <h2>Зробити замовлення</h2>
+    <label for="drink">Оберіть напій</label>
+    <select id="drink" name="drink">
+      <option value="Лате">Лате</option>
+      <option value="Капучино">Капучино</option>
+      <option value="Еспресо">Еспресо</option>
+    </select>
+
+    <label for="name">Ваше ім'я</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="comment">Коментар</label>
+    <textarea id="comment" name="comment" rows="3"></textarea>
+
+    <button type="submit">Надіслати</button>
+  </form>
+
+  <footer>
+    © 2025 CoffeeWell | Instagram: @coffeewell
+  </footer>
+
+</body>
+</html>
